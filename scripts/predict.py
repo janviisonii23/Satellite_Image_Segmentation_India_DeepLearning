@@ -16,8 +16,8 @@ import torch
 import torch.nn.functional as F
 from rasterio.crs import CRS
 
-from dataset import CLASS_NAMES, NUM_CLASSES
-from model import build_model
+from src.dataset import CLASS_NAMES, NUM_CLASSES
+from src.model import build_model
 
 
 @torch.no_grad()

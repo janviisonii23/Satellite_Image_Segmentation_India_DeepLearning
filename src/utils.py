@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from dataset import CLASS_NAMES, IGNORE_INDEX, NUM_CLASSES
+from src.dataset import CLASS_NAMES, IGNORE_INDEX, NUM_CLASSES
 
 
 def set_seed(seed):

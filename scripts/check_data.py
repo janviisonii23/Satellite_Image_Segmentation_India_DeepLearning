@@ -6,7 +6,7 @@ import collections
 import numpy as np
 import rasterio
 
-from dataset import CLASS_NAMES, list_pairs
+from src.dataset import CLASS_NAMES, list_pairs
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--data_root", required=True)

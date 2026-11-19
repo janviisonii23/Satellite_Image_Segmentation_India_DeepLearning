@@ -14,9 +14,9 @@ import time
 import torch
 from torch.utils.data import DataLoader
 
-from dataset import CLASS_NAMES, IMAGENET_MEAN, IMAGENET_STD, NUM_CLASSES, LandCoverDataset
-from model import build_model, param_groups
-from utils import CEDiceLoss, ConfusionMeter, class_weights_from_counts, format_metrics, set_seed
+from src.dataset import CLASS_NAMES, IMAGENET_MEAN, IMAGENET_STD, NUM_CLASSES, LandCoverDataset
+from src.model import build_model, param_groups
+from src.utils import CEDiceLoss, ConfusionMeter, class_weights_from_counts, format_metrics, set_seed
 
 
 def get_args():

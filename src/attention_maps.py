@@ -14,8 +14,8 @@ import numpy as np
 import torch
 from PIL import Image
 
-from dataset import CLASS_NAMES, IGNORE_INDEX, NUM_CLASSES, LandCoverDataset
-from model import AttentionGate, build_model
+from src.dataset import CLASS_NAMES, IGNORE_INDEX, NUM_CLASSES, LandCoverDataset
+from src.model import AttentionGate, build_model
 
 PALETTE = {0: (200, 200, 200), 1: (30, 90, 255), 2: (20, 160, 40), 3: (230, 180, 60)}  # built-up, water, trees, barren
 
